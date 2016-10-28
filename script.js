@@ -8,12 +8,15 @@ var key1 = {
 
 var key2 = {
   nestedkey1: {
-    nestedkey2: {nestedKey5: {notAsNestedKey: "I'm not as nested!"}
+    nestedkey2: {nestedKey5: {notAsNestedKey: "I'm not as nested!"},
     nestedkey3: {nestedKey4: {reallyNestedKey: "I'm deeply nested!"}}
   }
 }
 }
 
+var key3 = {
+"just me!"
+}
 
 console.log("time to add some firebase code!")
 storeValue("key1",key1)
