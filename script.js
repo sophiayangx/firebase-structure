@@ -15,11 +15,12 @@ var key2 = {
 }
 
 var listKey1 = {
-
+  listItemKey1: "hola!",
+  listItemKey2: "adios!",
 }
 
 console.log("time to add some firebase code!")
 storeValue("key1", key1)
 storeValue("key2", key2)
 storeValue("key3", "just me!")
-addNewValue("listKey1", listKey1)
+addListItem("listKey1", listKey1)
