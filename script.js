@@ -14,10 +14,7 @@ var key2 = {
 }
 }
 
-var key3 = {
-"just me!"
-}
-
 console.log("time to add some firebase code!")
 storeValue("key1",key1)
 storeValue("key2",key2)
+storeValue("key3", "just me!")
