@@ -5,7 +5,9 @@ var key1 = {
 
 var key2 = {
   nestedkey1: {
-    nestedkey2: "b;a;a"
+    nestedkey2: {nestedKey5: notAsNestedKey: "I'm not as nested!"
+  
+  }
   }
 }
 
