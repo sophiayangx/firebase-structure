@@ -9,9 +9,9 @@ var key1 = {
 var key2 = {
   nestedkey1: {
     nestedkey2: {nestedKey5: {notAsNestedKey: "I'm not as nested!"}
-    nestedkey3: {nestedKey4: }
+    nestedkey3: {nestedKey4: {reallyNestedKey: "I'm deeply nested!"}}
   }
-  }
+}
 }
 
 
