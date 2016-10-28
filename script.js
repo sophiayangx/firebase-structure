@@ -16,5 +16,4 @@ var key2 = {
 
 
 console.log("time to add some firebase code!")
-//storeValue("key1/listKey1", "hola!" + "adios!")
 storeValue("key1",key1)
